@@ -1,0 +1,7 @@
+name = "mdsl"
+grammar = "mdsl"
+path_suffixes = ["mdsl"]
+line_coments = ["# "]
+brackets = [
+    { start = "{", end = "}", close = true, newline = true, not_in = ["string", "comment"] },
+]
