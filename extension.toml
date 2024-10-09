@@ -8,7 +8,7 @@ repository = "https://github.com/dvsmc/zed-mdsl"
 
 [grammars.mdsl]
 repository = "https://github.com/dvsmc/zed-mdsl.git"
-commit = "fe2183711ce0f8f1bccafa8eff0fa8ec9fc1c970"
+commit = "abfc69a99665d6a816155ae325281f4e78bdf1a2"
 
 # [language_servers.mdsl]
 # name = "mdsl"
