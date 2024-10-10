@@ -7,9 +7,9 @@ authors = ["dvsmc <dvsmc@pm.me>"]
 repository = "https://github.com/dvsmc/zed-mdsl"
 
 [grammars.mdsl]
-repository = "https://github.com/dvsmc/zed-mdsl.git"
+repository = "https://github.com/dvsmc/tree-sitter-mdsl"
 commit = "f7e1dec03c59fd4082d669c2cac3f59ab6ee1562"
 
-# [language_servers.mdsl]
-# name = "mdsl"
-# language = "mdsl"
+[language_servers.mdsl]
+name = "mdsl"
+language = "mdsl"
