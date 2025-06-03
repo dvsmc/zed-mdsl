@@ -1,12 +1,12 @@
 ; Highlighting for Mistreevous MDSL syntax
 [
   (root_node) @keyword
-  (composite_node) @keyword ; sequence, selector, parallel, race, all
+  (composite_node) @keyword
   (lotto_node) @keyword
-  (decorator_node) @keyword ; repeat, retry, flip, succeed, fail
-  (leaf_node) @function ; action, condition, wait, branch
-  (callbacks) @function.builtin ; entry, exit, step
-  (guards) @conditional ; while, until
+  (decorator_node) @keyword
+  (leaf_node) @function
+  (callbacks) @function.builtin
+  (guards) @conditional
   (comment) @comment
   (identifier) @variable
   (node_args) @parameter

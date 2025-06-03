@@ -6,3 +6,9 @@ line_comments = ["//", "#"]
 brackets = [
     { start = "{", end = "}", close = true, newline = true, not_in = ["string", "comment"] },
 ]
+
+# Additional config for MDSL features
+# Supports: single-line (//, #) and block (/* ... */) comments
+# Node types: root, sequence, selector, parallel, race, all, lotto, repeat, retry, flip, succeed, fail, action, condition, wait, branch
+# Callbacks: entry, exit, step
+# Guards: while, until
