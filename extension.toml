@@ -8,7 +8,7 @@ repository = "https://github.com/dvsmc/zed-mdsl"
 
 [grammars.mdsl]
 repository = "https://github.com/dvsmc/tree-sitter-mdsl"
-commit = "5e734cd247ed60dc3d1b583760ceb8f2def49cff"
+commit = "84d53de4bf84b8da486a36dbd07b55eb92115ef1"
 
 [language_servers.mdsl]
 name = "mdsl"
