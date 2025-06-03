@@ -1,14 +1,14 @@
 id = "mdsl"
 name = "mdsl"
 description = "mdsl support"
-version = "0.5.13"
+version = "0.5.14"
 schema_version = 1
 authors = ["dvsmc <dvsmc@pm.me>"]
 repository = "https://github.com/dvsmc/zed-mdsl"
 
 [grammars.mdsl]
 repository = "https://github.com/dvsmc/tree-sitter-mdsl"
-commit = "0374b867ddffb1307c88f9e48f1096dd6aad3474"
+commit = "7eab08b824d5344d1283aed94bf5592aa4c29abb"
 
 [language_servers.mdsl]
 name = "mdsl"
