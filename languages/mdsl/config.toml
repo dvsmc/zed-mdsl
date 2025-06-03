@@ -1,7 +1,8 @@
+# MDSL language config for Mistreevous DSL
 name = "mdsl"
 grammar = "mdsl"
 path_suffixes = ["mdsl"]
-line_coments = ["# "]
+line_comments = ["//", "#"]
 brackets = [
     { start = "{", end = "}", close = true, newline = true, not_in = ["string", "comment"] },
 ]
