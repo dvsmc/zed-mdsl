@@ -3,7 +3,7 @@ scope = "source.mdsl"
 
 # Patterns to highlight
 patterns = [
-  { match = "\\b(root|selector|sequence|action|condition|lotto|while)\\b", scope = "keyword.control.mdsl" },
+    { match = "\\b(root|sequence|selector|parallel|race|all|lotto|repeat|retry|flip|succeed|fail|action|condition|wait|branch|entry|exit|step|while|until)\\b", scope = "keyword.control.mdsl" },
   
   # Match identifiers for functions/entities (alphanumeric with underscores)
   { match = "\\b[a-zA-Z_][a-zA-Z0-9_]*\\b", scope = "entity.name.function.mdsl" },
