@@ -1,4 +1,3 @@
-; Highlighting for Mistreevous MDSL syntax (tree-sitter)
 [
   (root) @keyword
   (sequence) @keyword
