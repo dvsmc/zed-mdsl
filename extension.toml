@@ -1,7 +1,7 @@
 id = "mdsl"
 name = "mdsl"
 description = "mdsl support"
-version = "0.2.0"
+version = "0.3.0"
 schema_version = 1
 authors = ["dvsmc <dvsmc@pm.me>"]
 repository = "https://github.com/dvsmc/zed-mdsl"
