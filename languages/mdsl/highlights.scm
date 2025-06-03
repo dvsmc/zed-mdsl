@@ -22,8 +22,6 @@
   (until) @conditional
   (comment) @comment
   (identifier) @variable
-  (node_args) @parameter
-  (arg_list) @parameter
   (number) @number
   (string) @string
   (boolean) @constant.builtin
