@@ -13,7 +13,7 @@
   (fail) @keyword
   (action) @function
   (condition) @function
-  (wait) @number
+  (wait) @function.builtin
   (branch) @function
   (entry) @function.builtin
   (exit) @function.builtin
